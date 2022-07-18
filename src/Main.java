@@ -2,6 +2,9 @@ package com.open_bootcamp;
 
 public class Main {
     public static void main(String[] args) {
+
+        //Ejercicio de ciclo if/else if
+
         int numero= 0;
         if(numero >0) {
             System.out.println("Este numero es positivo: " + numero);
@@ -12,7 +15,7 @@ public class Main {
         else {
             System.out.println("Este numero es = 0");
         }
-        //while 
+        ////Ejercicio de ciclo while
         int numeroWhile = 0;
         {
             while (numeroWhile < 3) {
@@ -20,6 +23,7 @@ public class Main {
                 numeroWhile++;
             }
         }
+        //Ejercicio de ciclo Do
         int numeroDoWhile=2;
         do {
             numeroDoWhile++;
@@ -30,20 +34,20 @@ public class Main {
             System.out.println("for vale: "+numFor);
         }
 
-
+        //Ejercicio de ciclo switch
         String estacion = "Verano";
         switch(estacion) {
             case "primavera":
                 System.out.println("Es primavera");
                 break;
             case "Verano":
-                System.out.println("Estamos en verano");
+                System.out.println("Es verano");
                 break;
-            case "otoño":
-                System.out.println("Estamos en otoño");
+            case "Otoño":
+                System.out.println("Es otoño");
                 break;
-            case "invierno":
-                System.out.println("Estamos en invierno");
+            case "Invierno":
+                System.out.println("Es invierno");
                 break;
             default:
                 System.out.println("No es una estación");
